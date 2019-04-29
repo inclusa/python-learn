@@ -117,14 +117,14 @@ Utilizarem """ per tal d'escriure diverses línies seguides
 
 Ara el podem cridar i imprimir per pantalla
 
-  #+BEGIN SRC python
+  #+BEGIN_SRC python
   >>> print(missatge)
   Això és un missatge
   amb tres salts
   de línia
   #+END_SRC
 
-Sentència *if...else*
+Sentència ~if...else~
 
   #+BEGIN_SRC python
   >>> numero1 = 5
@@ -148,15 +148,15 @@ Sentència *if...else*
   - Utilitat
     - Reutilització del codi (quan siga necessari o si és necessari)
   - Sintaxi
-    - *def nom_funcio():*
+    - ~def nom_funcio()~
       - Instruccions de la funció
       - return (opcional)
-    - *def nom_funcio(parametres)*
+    - ~def nom_funcio(parametres)~
       - Instruccions de la funció
       - return (opcional)
   - Execució
-    - *nom_funcio()*
-    - *nom_funcio(parametres)*
+    - ~nom_funcio()~
+    - ~nom_funcio(parametres)~
 
 ** Sintaxi
 Declarem la funció:
@@ -197,11 +197,11 @@ missatge()
 [[https://www.youtube.com/watch?v=Q8hugySbLQQ][http://img.youtube.com/vi/Q8hugySbLQQ/0.jpg]]
 ** Continguts
   - Definició
-    - Estructura de dades que ens permet magatzemas gran quantitat de valors (equivalent als arrays en altres llenguatges de programació)
-    - En Python les llistes poden guardar diferents tipus de valoras (en altres llenguates no ocorre això amb els arrays
-    - Es poden expandir dinàmicament afegint nous elements (altra novetat respecte als arrays en altres llenguatges)
+    - Estructura de dades que ens permet magatzemas gran quantitat de valors (equivalent als arrays en altres llenguatges de programació).
+    - En Python les llistes poden guardar diferents tipus de valoras (en altres llenguates no ocorre això amb els arrays.
+    - Es poden expandir dinàmicament afegint nous elements (altra novetat respecte als arrays en altres llenguatges).
   - Sintaxi
-    - Entre corxets
+    - Entre corxets.
 
 ** Sintaxi
 
@@ -210,11 +210,11 @@ nombreLlista=[elem1, elem2, elem3...]
 #+END_SRC
 
 Operadors relacionats amb llistes
-  - *append*: afegix
-  - *insert*: inserta
-  - *expand*: expandeix, concatena una altra llista
-  - *remove*
-  - *pop*
+  - ~append~: afegix
+  - ~insert~: inserta
+  - ~expand~: expandeix, concatena una altra llista
+  - ~remove~
+  - ~pop~
 * Python 08 - Sintaxi Bàsica VI: Tuples
 [[https://www.youtube.com/watch?v=Ufqh8aoR9hE][http://img.youtube.com/vi/Ufqh8aoR9hE/0.jpg]]
 
@@ -273,7 +273,7 @@ Operadors relacionats:
 * Python 10 - Condicionals I
 [[https://www.youtube.com/watch?v=iV-4F0jGWak][http://img.youtube.com/vi/iV-4F0jGWak/0.jpg]]
 ** Continguts
-- *if*
+  - ~if~
 ** Sintaxi
 #+BEGIN_SRC python
  def avaluacio(nota):
@@ -314,13 +314,13 @@ Axí quedaria:
 * Python 11 - Condicionals II
 [[https://www.youtube.com/watch?v=cf7o4s9nFu8][http://img.youtube.com/vi/cf7o4s9nFu8/0.jpg]]
 ** Continguts
-- Instrucció *if*
-- Instrucció *else* i *elif*
+- Instrucció ~if~
+- Instrucció ~else~ i ~elif~
 
 Interpretació:
-  - *if*: si
-  - *elif*: i sin no és veritat...
-  - *else*: en cas contrari
+  - ~if~: si
+  - ~elif~: i sin no és veritat...
+  - ~else~: en cas contrari
 ** Sintaxi
 #+BEGIN_SRC python
   print("Verificació d'accés")
@@ -339,24 +339,22 @@ Interpretació:
 [[https://www.youtube.com/watch?v=qxgEolsC6rg][http://img.youtube.com/vi/qxgEolsC6rg/0.jpg]]
 ** Continguts
 - Concatenació d'operadors de comparació
-- Operadors lògics *and* i *or*
-- Operador *in*
+- Operadors lògics ~and~ i ~or~
+- Operador ~in~
 * Python 13 - Condicionals IV
 [[https://www.youtube.com/watch?v=rDGsWYnQEJY][http://img.youtube.com/vi/rDGsWYnQEJY/0.jpg]]
 ** Continguts
 Explicació amb:
-  - *lower()*
-  - *upper()*
+  - ~lower()~
+  - ~upper()~
 * Python 14 - Bucles I
 [[https://www.youtube.com/watch?v=GQGhU1526Oo][http://img.youtube.com/vi/GQGhU1526Oo/0.jpg]]
 ** Continguts
-- *for*
-
-Bucles:
-  - Determinats
+  - ~for~
+  - Bucles Determinats
     - S'executen un nombre determinat de vegades
     - Es sap a priori quantes vegades es va a executar el codi de l'interior del bucle
-  - Indeterminats
+  - Bucles Indeterminats
     - S'executen un nombre indeterminat de vegades
     - No es sap a priori quantes vegades es va a executar el codi de l'interior del bucle
     - El nombre de vegades que s'executarà dependrà de les circumstàncies durant l'execució del programa
@@ -393,9 +391,9 @@ Aquest codi dóna:
 * Python 15 - Bucles II
 [[https://www.youtube.com/watch?v=D416qOEDrhI][http://img.youtube.com/vi/D416qOEDrhI/0.jpg]]
 ** Continguts
-  - Bucle *for*
+  - Bucle ~for~
     - Recorrent strings
-    - Tipus **range*
-    - Notacions especials amb *print*
+    - Tipus ~range~
+    - Notacions especials amb ~print~
 
 Explicació de validació d'informació com, per exemple, email.
