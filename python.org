@@ -1,0 +1,376 @@
+#+TITLE: 
+#+AUTHOR: Alfons Rovira
+#+DATE: 
+
+#+STARTUP: indent, latexpreview, inlineimages
+#+LANGUAGE: en
+#+DESCRIPTION:
+#+KEYWORDS: 
+#+PRIORITIES: 1 2 3
+#+TAGS: [ Level : Status Context Energy]
+#+TAGS: { Status : init(i) review(r) pending(p) reject(j) control(c) }
+#+TAGS: { Context : home(h) work(w) }
+#+TAGS: { Energy : hight(g) medium(m) low(l) }
+#+TODO: TODO(t) | PROCESS(p) | WAIT(w) | HABIT(h) | DONE(d) | CANCEL(c)
+#+PROPERTY: STYLE habit action cite
+#+PANDOC_OPTIONS: standalone:t latex-engine:xelatex
+#+BIBLIOGRAPHY: ./index.bib
+
+* Python 01 - Inici
+  - Introducció. Requisits previs i instal·lació de software.
+  - Fundaments i sintaxi bàsica del llenguatge.
+  - POO (Programació Orientada a Objectes) amb Python.
+  - Algoritmes, llistes i trams.
+  - BBDD (Bases de Dades).
+  - Trebalamb gràfics i contingut.
+  - Processos i tasques.
+  - Programació de xarxa. Sockets.
+  - Exercicis pràctics.
+* Python 02 - Introducció
+  - Història i característiques que Python
+    - Creat per Guido Val Rossum a començaments dels 80
+    - Llenguatge d'alt nivell
+    - Gramàtica senzilla, clara, molt llegible
+    - Tipat dinàmic i fort
+    - Orientat a objectes
+      - Sobrecàrrega de constructors
+      - Herència múltiple
+      - Encapsulació
+      - Interfaces
+      - Polimorfisme
+    - Open Source
+    - Fàcil d'aprendre
+    - Llibreria estándard molt ampla
+    - Interpretado
+    - Versàtil
+  - Requisits hardware i instal·lació de Python
+  - IDE a utilitzar
+
+* Python 03 - Sintaxi Bàsica I
+  - IDLE Python
+  - Primeres instruccions en Python
+  - Intal·lació SublimeText3
+* Python 04 - Sintaxi Bàsic ii: Tipus, operadors i variables
+  - Tipus
+    - Numèrics
+      - Enters (int)
+      - Coma flotant (float)
+      - Complexes
+    - Text
+    - Booleans
+      - Vertader (True)
+      - Fals (False)
+  - Operadors
+    - Aritmètics
+      - Suma (+)
+      - Resta (-)
+      - Multiplicació (*)
+      - Divisió (/)
+      - Mòdul (%)
+      - Exponent (**)
+      - Divisió sensera (//)
+    - Comparació
+      - Igual que (==)
+      - Diferent que (|=)
+      - Major que (>)
+      - Menor que (<)
+      - Major o igual que (>=)
+      - Menor o igual que (<=)
+    - Lògics
+      - AND
+      - OR
+      - NOT
+    - Assignació
+      - Igual (=)
+      - Increment (+=), (*=), (**=)
+      - Decrement (-=), (/=), (//=)
+    - Especials
+      - IS
+      - IS NOT
+      - IN
+      - IN NOT
+  - Variables: espai en memòria de l'ordindor on es magatzemarà un valor que podrà canviar durant l'execució del programa.
+
+Exemple per saber el tipus de variable:
+
+  =BEGIN SRC
+  >>> nombre = 5
+  >>> type(nombre)
+  <type 'int'>
+  >>> nombre = "Joan"
+  >>> type(nombre)
+  <type 'str'>
+  >>> nombre = 5.2
+  >>> type(nombre)
+  <type 'float'>
+  =END
+
+Utilizarem """ per tal d'escriure diverses línies seguides
+
+  =BEGIN SRC
+  >>> misstge = """Això és un missatge
+  ... amb tres salts
+  ... de línia"""
+  =END
+
+Ara el podem cridar i imprimir per pantalla
+
+  =BEGIN SRC
+  >>> print(missatge)
+  Això és un missatge
+  amb tres salts
+  de línia
+  =END
+
+Sentència *if...else*
+
+  =BEGIN SRC
+  >>> numero1 = 5
+  >>> numero2 = 7
+  >>> if numero1>numero2:
+  ...  print("El numero 1 es major")
+  ... else:
+  ...  print("El numero 2 es major")
+  ...
+  El numero 2 es major
+  =END
+
+* Python 05 - Sintaxis Bàsica III: Funcions
+  - Definició
+    - Conjunt de línies de còdi agrupades (bloc de codi) què funcionen com una unitat realitzant una tasca específica.
+    - Les funcions, en Python poden tornar valors.
+    - Les funcions en Python poen tenir paràmetres/arguments.
+    - A les funcion també se les denomina 'mètodes' quan es troben definides dins d'un classe.
+  - Utilitat
+    - Reutilització del codi (quan siga necessari o si és necessari)
+  - Sintaxi
+    - *def nom_funcio():*
+      - Instruccions de la funció
+      - return (opcional)
+    - *def nom_funcio(parametres)*
+      - Instruccions de la funció
+      - return (opcional)
+  - Execució
+    - *nom_funcio()*
+    - *nom_funcio(parametres)*
+
+Declarem la funció:
+
+  =BEGIN_SRC
+  def missatge()
+    print("Missatge 1")
+    print("Missatge 2")
+    print("Missatge 3")
+  =END
+
+Cridem l funció:
+
+  =BEGIN_SRC
+  missatge()
+  =END
+
+* Python 06 - Sintaxi Bàsica IV: Funcions II
+
+  - Pas de paràmetres
+
+  =BEGIN_SRC
+  def suma(num1, num2)
+
+    resultat=num1+num2
+
+    return resultat
+
+   magatzema_resultat = suma (5,8)
+
+   print(magatzema_resultat)
+
+  =END
+
+* Python 07 - Sintaxi Bàsica V: Llistes
+- Definició
+  - Estructura de dades que ens permet magatzemas gran quantitat de valors (equivalent als arrays en altres llenguatges de programació)
+  - En Python les llistes poden guardar diferents tipus de valoras (en altres llenguates no ocorre això amb els arrays
+  - Es poden expandir dinàmicament afegint nous elements (altra novetat respecte als arrays en altres llenguatges)
+- Sintaxi
+  - Entre corxets
+
+Sintaxi
+
+  =BEGIN_SRC
+  nombreLlista=[elem1, elem2, elem3...]
+  =END
+
+Operadors relacionats amb llistes
+  - *append*: afegix
+  - *insert*: inserta
+  - *expand*: expandeix, concatena una altra llista
+  - *remove*
+  - *pop*
+* Python 08 - Sintaxi Bàsica VI: Tuples
+- Definició
+  - Les tuples són inmutables, no es poden modificar després de la seua creació
+    - No pememten afegir, eliminar, moure elements, etc. (no append, exend, remove)
+    - Si permenten extrarues proporcions, però el resultat de l'extracció és una tubla nova
+    - No permeten cerques (no index)
+    - Si permeten comprobar si un element es troba en una tupla
+  - Quina utilitat o avantatge tenen respecte a les llistes?
+    - Més rapides
+    - Menys espai (major optimització)
+    - Formatege Strings
+    - Poden utilitzar-se com claus en un diccionari, les llistes no
+- Sintaxi
+  - Entre parèntesi
+
+Exemple
+
+  =BEGIN_SRC
+  tupla=("Joan", 13, 1, 1995)
+  tupla(tupla)
+  =END
+
+Altres operadors:
+  - *in*
+  - *count*
+  - *len*
+
+* Python 09 - Sintaxi Bàsica VII: Diccionaris
+- Definció
+  - Estructura de dades que ens permet magatzemar valos de fiferent tipus (sensers, cadenes de text, decimals) e inclús llistes i altres diccionaris.
+  - La principal característica dels diccionaris és que les dades es magatzemen associades a una clau què crea una associació *clau:valor* per cada element magatzemat
+  - Els elements magatzemats no estan ordenats. L'ordre es diferent a l'hora d'emmagatzemar la informació en un diccionari
+
+Exemple de diccionari:
+
+  =BEGIN_SRC
+  diccionari={"alemanya":"Berlín", "França":"París", "Regne Unit":"Londres"}
+  =END
+
+Cridem el diccionari
+
+  =BEGIN_SRC
+  pint(diccionari)
+  =END
+
+Operadors relacionats:
+  - *keys*
+  - *values*
+  - *len*
+* Python 10 - Condicionals I
+- *if*
+
+  =BEGIN_SRC
+
+  def avaluacio(nota):
+    valoraci="aprovat"
+    if nota < 5:
+      valoracio="suspens"
+    return
+
+  print(avaluacio(4))
+  =END
+
+Per introduir els valoras a la terminal:
+
+  =BEGIN_SRC
+  nota_alumne=input()  
+  =END nota_alumne=input()
+
+Convertim el valor a nombre senser:
+
+  =BEGIN_SRC
+  int(nota_alumne)
+  =END
+
+Axí quedaria:
+
+  =BEGIN_SRC
+
+  nota_alumne=input()  
+
+  def avaluacio(nota):
+    valoraci="aprovat"
+    if nota < 5:
+      valoracio="suspens"
+    return
+
+  print(avaluacio(int(nota_alumne)))
+  =END
+* Python 11 - Condicionals II
+- Instrucció *if*
+- Instrucció *else* i *elif*
+
+Interpretació:
+  - *if*: si
+  - *elif*: i sin no és veritat...
+  - *else*: en cas contrari
+
+  =BEGIN_SRC
+  print("Verificació d'accés")
+
+  edat_usuari=int(input("Introdueix la teua edat"))
+
+  if edat_usuari>17:
+    print("No pots passar")
+  elif edat usuari<100:
+    print("Edat incorrecta")
+  else:
+    print("Pots passar")
+  =END
+
+* Python 12 - Condicionals III
+- Concatenació d'operadors de comparació
+- Operadors lògics *and* i *or*
+- Operador *in*
+* Python 13 - Condicionals IV
+Explicació amb:
+- *lower()*
+- *upper()*
+* Python 14 - Bucles I
+- *for*
+
+Bucles:
+  - Determinats
+    - S'executen un nombre determinat de vegades
+    - Es sap a priori quantes vegades es va a executar el codi de l'interior del bucle
+  - Indeterminats
+    - S'executen un nombre indeterminat de vegades
+    - No es sap a priori quantes vegades es va a executar el codi de l'interior del bucle
+    - El nombre de vegades que s'executarà dependrà de les circumstàncies durant l'execució del programa
+
+  =BEGIN_SRC
+  for i in [1,2,3]:
+    print("Hola")
+  =END
+
+Aquest codi dóna:
+
+  =BEGIN_SRC
+  Hola
+  Hola
+  Hola
+  =END
+
+Per tal què recòrrega la llista:
+
+  =BEGIN_SRC
+  for i in ["primavera","estiu","tardor","hivern"]
+    print(i)
+  =END
+
+
+Aquest codi dóna:
+
+  =BEGIN_SRC
+  primavera
+  estiu
+  tardor
+  hivern
+  =END
+* Python 15 - Bucles II
+Continguts:
+- Bucle *for*
+  - Recorrent strings
+  - Tipus **range*
+  - Notacions especials amb *print*
+
+Explicació de validació d'informació com, per exemple, email.
