@@ -2,7 +2,7 @@
 
 
 #+TITLE:  Aprenent Python 
-#+AUTHOR: Alfons Rovira i Àngel
+#+AUTHOR: Alfons i Angel
 #+DATE:   29.04.2019
 
 #+STARTUP: indent, latexpreview, inlineimages
@@ -90,7 +90,7 @@
 
 Exemple per saber el tipus de variable:
 
-  =BEGIN SRC
+  #+BEGIN_SRC
   >>> nombre = 5
   >>> type(nombre)
   <type 'int'>
@@ -100,28 +100,28 @@ Exemple per saber el tipus de variable:
   >>> nombre = 5.2
   >>> type(nombre)
   <type 'float'>
-  =END
+  #+END_SRC
 
 Utilizarem """ per tal d'escriure diverses línies seguides
 
-  =BEGIN SRC
+  #+BEGIN SRC
   >>> misstge = """Això és un missatge
   ... amb tres salts
   ... de línia"""
-  =END
+  #+END
 
 Ara el podem cridar i imprimir per pantalla
 
-  =BEGIN SRC
+  #+BEGIN SRC
   >>> print(missatge)
   Això és un missatge
   amb tres salts
   de línia
-  =END
+  #+END_SRC
 
 Sentència *if...else*
 
-  =BEGIN SRC
+  #+BEGIN_SRC
   >>> numero1 = 5
   >>> numero2 = 7
   >>> if numero1>numero2:
@@ -130,7 +130,7 @@ Sentència *if...else*
   ...  print("El numero 2 es major")
   ...
   El numero 2 es major
-  =END
+  #+END_SRC
 
 * Python 05 - Sintaxis Bàsica III: Funcions
   - Definició
