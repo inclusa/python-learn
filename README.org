@@ -44,10 +44,12 @@
   - IDE a utilitzar
 
 * Python 03 - Sintaxi Bàsica I
+[[https://www.youtube.com/watch?v=yppT6GPZMyo][http://img.youtube.com/vi/yppT6GPZMyo/0.jpg]]
   - IDLE Python
   - Primeres instruccions en Python
   - Intal·lació SublimeText3
 * Python 04 - Sintaxi Bàsic II: Tipus, operadors i variables
+[[https://www.youtube.com/watch?v=u4I9PqhqCo8][http://img.youtube.com/vi/u4I9PqhqCo8/0.jpg]]
   - Tipus
     - Numèrics
       - Enters (int)
@@ -90,7 +92,7 @@
 
 Exemple per saber el tipus de variable:
 
-  #+BEGIN_SRC
+  #+BEGIN_SRC python
   >>> nombre = 5
   >>> type(nombre)
   <type 'int'>
@@ -104,7 +106,7 @@ Exemple per saber el tipus de variable:
 
 Utilizarem """ per tal d'escriure diverses línies seguides
 
-  #+BEGIN SRC
+  #+BEGIN SRC python
   >>> misstge = """Això és un missatge
   ... amb tres salts
   ... de línia"""
@@ -112,7 +114,7 @@ Utilizarem """ per tal d'escriure diverses línies seguides
 
 Ara el podem cridar i imprimir per pantalla
 
-  #+BEGIN SRC
+  #+BEGIN SRC python
   >>> print(missatge)
   Això és un missatge
   amb tres salts
@@ -121,7 +123,7 @@ Ara el podem cridar i imprimir per pantalla
 
 Sentència *if...else*
 
-  #+BEGIN_SRC
+  #+BEGIN_SRC python
   >>> numero1 = 5
   >>> numero2 = 7
   >>> if numero1>numero2:
@@ -133,6 +135,7 @@ Sentència *if...else*
   #+END_SRC
 
 * Python 05 - Sintaxis Bàsica III: Funcions
+[[https://www.youtube.com/watch?v=VY448UWAQ_0][http://img.youtube.com/vi/VY448UWAQ_0/0.jpg]]
   - Definició
     - Conjunt de línies de còdi agrupades (bloc de codi) què funcionen com una unitat realitzant una tasca específica.
     - Les funcions, en Python poden tornar valors.
@@ -168,7 +171,7 @@ missatge()
 #+END_SRC
 
 * Python 06 - Sintaxi Bàsica IV: Funcions II
-
+[[https://www.youtube.com/watch?v=vawEHhV_HFA][http://img.youtube.com/vi/vawEHhV_HFA/0.jpg]]
   - Pas de paràmetres
 
 #+BEGIN_SRC python
@@ -185,6 +188,7 @@ missatge()
 #+END_SRC
 
 * Python 07 - Sintaxi Bàsica V: Llistes
+[[https://www.youtube.com/watch?v=Q8hugySbLQQ][http://img.youtube.com/vi/Q8hugySbLQQ/0.jpg]]
 - Definició
   - Estructura de dades que ens permet magatzemas gran quantitat de valors (equivalent als arrays en altres llenguatges de programació)
   - En Python les llistes poden guardar diferents tipus de valoras (en altres llenguates no ocorre això amb els arrays
@@ -205,6 +209,7 @@ Operadors relacionats amb llistes
   - *remove*
   - *pop*
 * Python 08 - Sintaxi Bàsica VI: Tuples
+[[https://www.youtube.com/watch?v=Ufqh8aoR9hE][http://img.youtube.com/vi/Ufqh8aoR9hE/0.jpg]]
 - Definició
   - Les tuples són inmutables, no es poden modificar després de la seua creació
     - No pememten afegir, eliminar, moure elements, etc. (no append, exend, remove)
@@ -232,6 +237,7 @@ Altres operadors:
   - *len*
 
 * Python 09 - Sintaxi Bàsica VII: Diccionaris
+[[https://www.youtube.com/watch?v=2OmgHl8lp0I][http://img.youtube.com/vi/2OmgHl8lp0I/0.jpg]]
 - Definció
   - Estructura de dades que ens permet magatzemar valos de fiferent tipus (sensers, cadenes de text, decimals) e inclús llistes i altres diccionaris.
   - La principal característica dels diccionaris és que les dades es magatzemen associades a una clau què crea una associació *clau:valor* per cada element magatzemat
@@ -254,6 +260,7 @@ Operadors relacionats:
   - *values*
   - *len*
 * Python 10 - Condicionals I
+[[https://www.youtube.com/watch?v=iV-4F0jGWak][http://img.youtube.com/vi/iV-4F0jGWak/0.jpg]]
 - *if*
 
 #+BEGIN_SRC python
@@ -293,6 +300,7 @@ Axí quedaria:
 #+END_SRC
 
 * Python 11 - Condicionals II
+[[https://www.youtube.com/watch?v=cf7o4s9nFu8][http://img.youtube.com/vi/cf7o4s9nFu8/0.jpg]]
 - Instrucció *if*
 - Instrucció *else* i *elif*
 
@@ -315,14 +323,18 @@ Interpretació:
 #+END_SRC
 
 * Python 12 - Condicionals III
+[[https://www.youtube.com/watch?v=qxgEolsC6rg][http://img.youtube.com/vi/qxgEolsC6rg/0.jpg]]
+
 - Concatenació d'operadors de comparació
 - Operadors lògics *and* i *or*
 - Operador *in*
 * Python 13 - Condicionals IV
+[[https://www.youtube.com/watch?v=rDGsWYnQEJY][http://img.youtube.com/vi/rDGsWYnQEJY/0.jpg]]
 Explicació amb:
 - *lower()*
 - *upper()*
 * Python 14 - Bucles I
+[[https://www.youtube.com/watch?v=GQGhU1526Oo][http://img.youtube.com/vi/GQGhU1526Oo/0.jpg]]
 - *for*
 
 Bucles:
@@ -364,6 +376,7 @@ Aquest codi dóna:
 #+END_SRC
  
 * Python 15 - Bucles II
+[[https://www.youtube.com/watch?v=D416qOEDrhI][http://img.youtube.com/vi/D416qOEDrhI/0.jpg]]
 Continguts:
 - Bucle *for*
   - Recorrent strings
