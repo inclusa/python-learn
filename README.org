@@ -1,4 +1,6 @@
 
+
+
 #+TITLE:  Aprenent Python 
 #+AUTHOR: Alfons Rovira i Àngel
 #+DATE:   29.04.2019
@@ -21,6 +23,7 @@
   - Programació de xarxa. Sockets.
   - Exercicis pràctics.
 * Python 02 - Introducció
+[[https://www.youtube.com/watch?v=9ojhJsXNWCI][http://img.youtube.com/vi/9ojhJsXNWCI/0.jpg]]
   - Història i característiques que Python
     - Creat per Guido Val Rossum a començaments dels 80
     - Llenguatge d'alt nivell

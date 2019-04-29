@@ -1,20 +1,13 @@
-#+TITLE: 
-#+AUTHOR: Alfons Rovira
-#+DATE: 
+
+
+#+TITLE:  Aprenent Python 
+#+AUTHOR: Alfons Rovira i Àngel
+#+DATE:   29.04.2019
 
 #+STARTUP: indent, latexpreview, inlineimages
-#+LANGUAGE: en
-#+DESCRIPTION:
-#+KEYWORDS: 
-#+PRIORITIES: 1 2 3
-#+TAGS: [ Level : Status Context Energy]
-#+TAGS: { Status : init(i) review(r) pending(p) reject(j) control(c) }
-#+TAGS: { Context : home(h) work(w) }
-#+TAGS: { Energy : hight(g) medium(m) low(l) }
-#+TODO: TODO(t) | PROCESS(p) | WAIT(w) | HABIT(h) | DONE(d) | CANCEL(c)
-#+PROPERTY: STYLE habit action cite
-#+PANDOC_OPTIONS: standalone:t latex-engine:xelatex
-#+BIBLIOGRAPHY: ./index.bib
+#+LANGUAGE: ca
+#+DESCRIPTION: Bitàcora d'aprenentatge de Python
+#+KEYWORDS: python
 
 * Python 01 - Inici
 [[https://www.youtube.com/watch?v=G2FCfQj-9ig][http://img.youtube.com/vi/G2FCfQj-9ig/0.jpg]]
