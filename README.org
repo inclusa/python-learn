@@ -10,21 +10,21 @@
 #+DESCRIPTION: Bitàcora d'aprenentatge de Python
 #+KEYWORDS: python
 
-* [[Python 01 - Inici]]
-* [[Python 02 - Introducció]]
-* [[Python 03 - Sintaxi Bàsica I]]
-* [[Python 04 - Sintaxi Bàsic II: Tipus, operadors i variables]]
-* [[Python 05 - Sintaxis Bàsica III: Funcions]]
-* [[Python 06 - Sintaxi Bàsica IV: Funcions II]]
-* [[Python 07 - Sintaxi Bàsica V: Llistes]]
-* [[Python 08 - Sintaxi Bàsica VI: Tuples]]
-* [[Python 09 - Sintaxi Bàsica VII: Diccionaris]]
-* [[Python 10 - Condicionals I]]
-* [[Python 11 - Condicionals II]]
-* [[Python 12 - Condicionals III]]
-* [[Python 13 - Condicionals IV]]
-* [[Python 14 - Bucles I]]
-* [[Python 15 - Bucles II]]
+[[Python 01 - Inici]]
+[[Python 02 - Introducció]]
+[[Python 03 - Sintaxi Bàsica I]]
+[[Python 04 - Sintaxi Bàsic II: Tipus, operadors i variables]]
+[[Python 05 - Sintaxis Bàsica III: Funcions]]
+[[Python 06 - Sintaxi Bàsica IV: Funcions II]]
+[[Python 07 - Sintaxi Bàsica V: Llistes]]
+[[Python 08 - Sintaxi Bàsica VI: Tuples]]
+[[Python 09 - Sintaxi Bàsica VII: Diccionaris]]
+[[Python 10 - Condicionals I]]
+[[Python 11 - Condicionals II]]
+[[Python 12 - Condicionals III]]
+[[Python 13 - Condicionals IV]]
+[[Python 14 - Bucles I]]
+[[Python 15 - Bucles II]]
 
 
 * Python 01 - Inici
