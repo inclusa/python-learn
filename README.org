@@ -18,7 +18,7 @@
 
 * Python 01 - Inici
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/G2FCfQj-9ig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-[[yt:papuvlVeZg8]]
+
   - Introducció. Requisits previs i instal·lació de software.
   - Fundaments i sintaxi bàsica del llenguatge.
   - POO (Programació Orientada a Objectes) amb Python.
