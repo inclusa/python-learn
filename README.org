@@ -12,7 +12,7 @@
 
 * Python 01 - Inici
 [[https://www.youtube.com/watch?v=G2FCfQj-9ig][http://img.youtube.com/vi/G2FCfQj-9ig/0.jpg]]
-
+** Continguts
   - Introducció. Requisits previs i instal·lació de software.
   - Fundaments i sintaxi bàsica del llenguatge.
   - POO (Programació Orientada a Objectes) amb Python.
@@ -24,6 +24,7 @@
   - Exercicis pràctics.
 * Python 02 - Introducció
 [[https://www.youtube.com/watch?v=9ojhJsXNWCI][http://img.youtube.com/vi/9ojhJsXNWCI/0.jpg]]
+** Continguts
   - Història i característiques que Python
     - Creat per Guido Val Rossum a començaments dels 80
     - Llenguatge d'alt nivell
@@ -45,11 +46,13 @@
 
 * Python 03 - Sintaxi Bàsica I
 [[https://www.youtube.com/watch?v=yppT6GPZMyo][http://img.youtube.com/vi/yppT6GPZMyo/0.jpg]]
+** Continguts
   - IDLE Python
   - Primeres instruccions en Python
   - Intal·lació SublimeText3
 * Python 04 - Sintaxi Bàsic II: Tipus, operadors i variables
 [[https://www.youtube.com/watch?v=u4I9PqhqCo8][http://img.youtube.com/vi/u4I9PqhqCo8/0.jpg]]
+** Continguts
   - Tipus
     - Numèrics
       - Enters (int)
@@ -89,7 +92,7 @@
       - IN
       - IN NOT
   - Variables: espai en memòria de l'ordindor on es magatzemarà un valor que podrà canviar durant l'execució del programa.
-
+** Sintaxi
 Exemple per saber el tipus de variable:
 
   #+BEGIN_SRC python
@@ -136,6 +139,7 @@ Sentència *if...else*
 
 * Python 05 - Sintaxis Bàsica III: Funcions
 [[https://www.youtube.com/watch?v=VY448UWAQ_0][http://img.youtube.com/vi/VY448UWAQ_0/0.jpg]]
+** Continguts
   - Definició
     - Conjunt de línies de còdi agrupades (bloc de codi) què funcionen com una unitat realitzant una tasca específica.
     - Les funcions, en Python poden tornar valors.
@@ -154,6 +158,7 @@ Sentència *if...else*
     - *nom_funcio()*
     - *nom_funcio(parametres)*
 
+** Sintaxi
 Declarem la funció:
 
 #+BEGIN_SRC python
@@ -172,8 +177,9 @@ missatge()
 
 * Python 06 - Sintaxi Bàsica IV: Funcions II
 [[https://www.youtube.com/watch?v=vawEHhV_HFA][http://img.youtube.com/vi/vawEHhV_HFA/0.jpg]]
+** Continguts
   - Pas de paràmetres
-
+** Sintaxi
 #+BEGIN_SRC python
   def suma(num1, num2)
 
@@ -189,14 +195,15 @@ missatge()
 
 * Python 07 - Sintaxi Bàsica V: Llistes
 [[https://www.youtube.com/watch?v=Q8hugySbLQQ][http://img.youtube.com/vi/Q8hugySbLQQ/0.jpg]]
-- Definició
-  - Estructura de dades que ens permet magatzemas gran quantitat de valors (equivalent als arrays en altres llenguatges de programació)
-  - En Python les llistes poden guardar diferents tipus de valoras (en altres llenguates no ocorre això amb els arrays
-  - Es poden expandir dinàmicament afegint nous elements (altra novetat respecte als arrays en altres llenguatges)
-- Sintaxi
-  - Entre corxets
+** Continguts
+  - Definició
+    - Estructura de dades que ens permet magatzemas gran quantitat de valors (equivalent als arrays en altres llenguatges de programació)
+    - En Python les llistes poden guardar diferents tipus de valoras (en altres llenguates no ocorre això amb els arrays
+    - Es poden expandir dinàmicament afegint nous elements (altra novetat respecte als arrays en altres llenguatges)
+  - Sintaxi
+    - Entre corxets
 
-Sintaxi
+** Sintaxi
 
 #+BEGIN_SRC python
 nombreLlista=[elem1, elem2, elem3...]
@@ -210,6 +217,8 @@ Operadors relacionats amb llistes
   - *pop*
 * Python 08 - Sintaxi Bàsica VI: Tuples
 [[https://www.youtube.com/watch?v=Ufqh8aoR9hE][http://img.youtube.com/vi/Ufqh8aoR9hE/0.jpg]]
+
+** Continguts
 - Definició
   - Les tuples són inmutables, no es poden modificar després de la seua creació
     - No pememten afegir, eliminar, moure elements, etc. (no append, exend, remove)
@@ -221,10 +230,10 @@ Operadors relacionats amb llistes
     - Menys espai (major optimització)
     - Formatege Strings
     - Poden utilitzar-se com claus en un diccionari, les llistes no
-- Sintaxi
+** Sintaxi
   - Entre parèntesi
 
-Exemple
+** Codi
 
 #+BEGIN_SRC python
   tupla=("Joan", 13, 1, 1995)
@@ -238,10 +247,12 @@ Altres operadors:
 
 * Python 09 - Sintaxi Bàsica VII: Diccionaris
 [[https://www.youtube.com/watch?v=2OmgHl8lp0I][http://img.youtube.com/vi/2OmgHl8lp0I/0.jpg]]
+** Continguts
 - Definció
   - Estructura de dades que ens permet magatzemar valos de fiferent tipus (sensers, cadenes de text, decimals) e inclús llistes i altres diccionaris.
   - La principal característica dels diccionaris és que les dades es magatzemen associades a una clau què crea una associació *clau:valor* per cada element magatzemat
   - Els elements magatzemats no estan ordenats. L'ordre es diferent a l'hora d'emmagatzemar la informació en un diccionari
+** Sintaxi
 
 Exemple de diccionari:
 
@@ -261,8 +272,9 @@ Operadors relacionats:
   - *len*
 * Python 10 - Condicionals I
 [[https://www.youtube.com/watch?v=iV-4F0jGWak][http://img.youtube.com/vi/iV-4F0jGWak/0.jpg]]
+** Continguts
 - *if*
-
+** Sintaxi
 #+BEGIN_SRC python
  def avaluacio(nota):
     valoraci="aprovat"
@@ -301,6 +313,7 @@ Axí quedaria:
 
 * Python 11 - Condicionals II
 [[https://www.youtube.com/watch?v=cf7o4s9nFu8][http://img.youtube.com/vi/cf7o4s9nFu8/0.jpg]]
+** Continguts
 - Instrucció *if*
 - Instrucció *else* i *elif*
 
@@ -308,7 +321,7 @@ Interpretació:
   - *if*: si
   - *elif*: i sin no és veritat...
   - *else*: en cas contrari
-
+** Sintaxi
 #+BEGIN_SRC python
   print("Verificació d'accés")
 
@@ -324,17 +337,19 @@ Interpretació:
 
 * Python 12 - Condicionals III
 [[https://www.youtube.com/watch?v=qxgEolsC6rg][http://img.youtube.com/vi/qxgEolsC6rg/0.jpg]]
-
+** Continguts
 - Concatenació d'operadors de comparació
 - Operadors lògics *and* i *or*
 - Operador *in*
 * Python 13 - Condicionals IV
 [[https://www.youtube.com/watch?v=rDGsWYnQEJY][http://img.youtube.com/vi/rDGsWYnQEJY/0.jpg]]
+** Continguts
 Explicació amb:
-- *lower()*
-- *upper()*
+  - *lower()*
+  - *upper()*
 * Python 14 - Bucles I
 [[https://www.youtube.com/watch?v=GQGhU1526Oo][http://img.youtube.com/vi/GQGhU1526Oo/0.jpg]]
+** Continguts
 - *for*
 
 Bucles:
@@ -345,7 +360,7 @@ Bucles:
     - S'executen un nombre indeterminat de vegades
     - No es sap a priori quantes vegades es va a executar el codi de l'interior del bucle
     - El nombre de vegades que s'executarà dependrà de les circumstàncies durant l'execució del programa
-
+** Sintaxi
 #+BEGIN_SRC python
   for i in [1,2,3]:
     print("Hola")
@@ -377,10 +392,10 @@ Aquest codi dóna:
  
 * Python 15 - Bucles II
 [[https://www.youtube.com/watch?v=D416qOEDrhI][http://img.youtube.com/vi/D416qOEDrhI/0.jpg]]
-Continguts:
-- Bucle *for*
-  - Recorrent strings
-  - Tipus **range*
-  - Notacions especials amb *print*
+** Continguts
+  - Bucle *for*
+    - Recorrent strings
+    - Tipus **range*
+    - Notacions especials amb *print*
 
 Explicació de validació d'informació com, per exemple, email.
