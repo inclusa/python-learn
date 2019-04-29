@@ -17,7 +17,7 @@
 #+BIBLIOGRAPHY: ./index.bib
 
 * Python 01 - Inici
-#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/G2FCfQj-9ig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[[https://www.youtube.com/watch?v=G2FCfQj-9ig][http://img.youtube.com/vi/G2FCfQj-9ig/0.jpg]]
 
   - Introducció. Requisits previs i instal·lació de software.
   - Fundaments i sintaxi bàsica del llenguatge.
