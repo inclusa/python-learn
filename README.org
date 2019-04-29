@@ -113,7 +113,7 @@ Utilizarem """ per tal d'escriure diverses línies seguides
   >>> misstge = """Això és un missatge
   ... amb tres salts
   ... de línia"""
-  #+END
+  #+END_SRC
 
 Ara el podem cridar i imprimir per pantalla
 
