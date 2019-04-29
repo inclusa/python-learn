@@ -158,24 +158,25 @@ Sentència *if...else*
 
 Declarem la funció:
 
-  =BEGIN_SRC
+#+BEGIN_SRC python
   def missatge()
     print("Missatge 1")
     print("Missatge 2")
     print("Missatge 3")
-  =END
+#+END_SRC
+
 
 Cridem l funció:
 
-  =BEGIN_SRC
-  missatge()
-  =END
+#+BEGIN_SRC python
+missatge()
+#+END_SRC
 
 * Python 06 - Sintaxi Bàsica IV: Funcions II
 
   - Pas de paràmetres
 
-  =BEGIN_SRC
+#+BEGIN_SRC python
   def suma(num1, num2)
 
     resultat=num1+num2
@@ -186,7 +187,7 @@ Cridem l funció:
 
    print(magatzema_resultat)
 
-  =END
+#+END_SRC
 
 * Python 07 - Sintaxi Bàsica V: Llistes
 - Definició
@@ -198,9 +199,9 @@ Cridem l funció:
 
 Sintaxi
 
-  =BEGIN_SRC
-  nombreLlista=[elem1, elem2, elem3...]
-  =END
+#+BEGIN_SRC python
+nombreLlista=[elem1, elem2, elem3...]
+#+END_SRC
 
 Operadors relacionats amb llistes
   - *append*: afegix
@@ -225,10 +226,10 @@ Operadors relacionats amb llistes
 
 Exemple
 
-  =BEGIN_SRC
+#+BEGIN_SRC python
   tupla=("Joan", 13, 1, 1995)
   tupla(tupla)
-  =END
+#+END_SRC
 
 Altres operadors:
   - *in*
@@ -243,16 +244,16 @@ Altres operadors:
 
 Exemple de diccionari:
 
-  =BEGIN_SRC
+#+BEGIN_SRC python
   diccionari={"alemanya":"Berlín", "França":"París", "Regne Unit":"Londres"}
-  =END
+#+END_SRC
 
 Cridem el diccionari
 
-  =BEGIN_SRC
-  pint(diccionari)
-  =END
-
+#+BEGIN_SRC python
+pint(diccionari)
+#+END_SRC
+  
 Operadors relacionats:
   - *keys*
   - *values*
@@ -260,33 +261,31 @@ Operadors relacionats:
 * Python 10 - Condicionals I
 - *if*
 
-  =BEGIN_SRC
-
-  def avaluacio(nota):
+#+BEGIN_SRC python
+ def avaluacio(nota):
     valoraci="aprovat"
     if nota < 5:
       valoracio="suspens"
     return
 
   print(avaluacio(4))
-  =END
+ #+END_SRC
 
 Per introduir els valoras a la terminal:
 
-  =BEGIN_SRC
+#+BEGIN_SRC python
   nota_alumne=input()  
-  =END nota_alumne=input()
+#+END_SRC
 
 Convertim el valor a nombre senser:
 
-  =BEGIN_SRC
+#+BEGIN_SRC python
   int(nota_alumne)
-  =END
+#+END_SRC
 
 Axí quedaria:
 
-  =BEGIN_SRC
-
+#+BEGIN_SRC python
   nota_alumne=input()  
 
   def avaluacio(nota):
@@ -294,9 +293,10 @@ Axí quedaria:
     if nota < 5:
       valoracio="suspens"
     return
-
   print(avaluacio(int(nota_alumne)))
-  =END
+
+#+END_SRC
+
 * Python 11 - Condicionals II
 - Instrucció *if*
 - Instrucció *else* i *elif*
@@ -306,7 +306,7 @@ Interpretació:
   - *elif*: i sin no és veritat...
   - *else*: en cas contrari
 
-  =BEGIN_SRC
+#+BEGIN_SRC python
   print("Verificació d'accés")
 
   edat_usuari=int(input("Introdueix la teua edat"))
@@ -317,7 +317,7 @@ Interpretació:
     print("Edat incorrecta")
   else:
     print("Pots passar")
-  =END
+#+END_SRC
 
 * Python 12 - Condicionals III
 - Concatenació d'operadors de comparació
@@ -339,35 +339,35 @@ Bucles:
     - No es sap a priori quantes vegades es va a executar el codi de l'interior del bucle
     - El nombre de vegades que s'executarà dependrà de les circumstàncies durant l'execució del programa
 
-  =BEGIN_SRC
+#+BEGIN_SRC python
   for i in [1,2,3]:
     print("Hola")
-  =END
+#+END_SRC
 
 Aquest codi dóna:
 
-  =BEGIN_SRC
+#+BEGIN_SRC 
   Hola
   Hola
   Hola
-  =END
+#+END_SRC
 
 Per tal què recòrrega la llista:
 
-  =BEGIN_SRC
+#+BEGIN_SRC python
   for i in ["primavera","estiu","tardor","hivern"]
     print(i)
-  =END
-
+#+END_SRC
 
 Aquest codi dóna:
 
-  =BEGIN_SRC
+#+BEGIN_SRC 
   primavera
   estiu
   tardor
   hivern
-  =END
+#+END_SRC
+ 
 * Python 15 - Bucles II
 Continguts:
 - Bucle *for*
