@@ -109,7 +109,7 @@ Exemple per saber el tipus de variable:
 
 Utilizarem """ per tal d'escriure diverses línies seguides
 
-  #+BEGIN SRC python
+  #+BEGIN_SRC python
   >>> misstge = """Això és un missatge
   ... amb tres salts
   ... de línia"""
