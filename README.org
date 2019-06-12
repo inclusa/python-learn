@@ -1,6 +1,3 @@
-
-
-
 #+TITLE:  Aprenent Python 
 #+AUTHOR: Alfons i Angel
 #+DATE:   29.04.2019
@@ -416,7 +413,7 @@ Aquest codi dóna:
 Explicació de validació d'informació com, per exemple, email.
 
 * Python 16 - Bucles III
-[[https://www.youtube.com/watch?v=KFz-mXB7qVI][https://www.youtube.com/watch?v=KFz-mXB7qVI]]
+[[https://www.youtube.com/watch?v=KFz-mXB7qVI][http://img.youtube.com/vi/KFz-mXB7qVI/0.jpg]]
 ** Continguts
   - Bucle ~range~
 ** Sintaxi
