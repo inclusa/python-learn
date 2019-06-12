@@ -414,3 +414,43 @@ Aquest codi dóna:
     - Notacions especials amb ~print~
 
 Explicació de validació d'informació com, per exemple, email.
+
+* Python 16 - Bucles III
+[[https://www.youtube.com/watch?v=KFz-mXB7qVI][https://www.youtube.com/watch?v=KFz-mXB7qVI]]
+** Continguts
+  - Bucle ~range~
+** Sintaxi
+#+BEGIN_SRC python
+for i in range(5):
+  print(i)
+#+END_SRC
+
+També
+
+#+BEGIN_SRC python
+for i in range(5,50,5)
+  print(f"valor de la variable {i}")
+#+END_SRC
+
+També
+
+#+BEGIN_SRC python
+valido = False
+
+email = input("Introdueix el teu email: ")
+
+for i in range(len(email)):
+
+    if email[i] = "g":
+
+        valido = True
+
+if valido:
+
+    print("Email correcte")
+
+else:
+
+    print("Email incorrecte")
+ #+END_SRC
+
