@@ -1,6 +1,3 @@
-
-
-
 #+TITLE:  Aprenent Python 
 #+AUTHOR: Alfons i Angel
 #+DATE:   29.04.2019
@@ -414,6 +411,7 @@ Aquest codi dóna:
     - Notacions especials amb ~print~
 
 Explicació de validació d'informació com, per exemple, email.
+<<<<<<< HEAD
 * Python 16 - Bucles III
 ** Continguts
   - Bucle ~for~
@@ -435,6 +433,86 @@ Aquest codi dóna:
 3
 4
 #+END_SRC
+* Python 17 - Bucles IV
+[[https://www.youtube.com/watch?v=UfUM6uzl5SM][http://img.youtube.com/vi/UfUM6uzl5SM/0.jpg]]
+
+Codi 1
+
+```python
+edat = int(input("Introdueix la teua edat: "))
+
+while edat < 5 or edat > 100:
+    print("Has introduit una edat incorrecta, torna a intentar-ho")
+    edat = int(input("Introdueix la teua edat per favor: "))
+
+print("Gràcies per col·laborar.")
+print("Edat de l'alumne " + str(edat))
+```
+
+Codi 2
+
+```python
+print("Programa de càlcul d'arrel quadrada")
+numero = int(input("Introdueix el nombre: "))
+
+intents = 0
+
+while nombre < 0:
+    print("No es pot hallar l'arrel d'un nombre negatiu")
+
+    if intents == 2:
+        print("Has provat massa vegades. El programa ha finalitzat")
+	break;
+
+    nombre = int(input("Introdueix el nombre: "))
+    if nombre = 0:
+        intents = intents+1
+
+    if intents < 2:
+        solution = math.sqrt(nombre)
+	print("L'arrel quadrada de " + str(nombre) + " és " + str(solution))
+```
+=======
+
+* Python 16 - Bucles III
+[[https://www.youtube.com/watch?v=KFz-mXB7qVI][http://img.youtube.com/vi/KFz-mXB7qVI/0.jpg]]
+** Continguts
+  - Bucle ~range~
+** Sintaxi
+#+BEGIN_SRC python
+for i in range(5):
+  print(i)
+#+END_SRC
+
+També
+
+#+BEGIN_SRC python
+for i in range(5,50,5)
+  print(f"valor de la variable {i}")
+#+END_SRC
+
+També
+
+#+BEGIN_SRC python
+valido = False
+
+email = input("Introdueix el teu email: ")
+
+for i in range(len(email)):
+
+    if email[i] = "g":
+
+        valido = True
+
+if valido:
+
+    print("Email correcte")
+
+else:
+
+    print("Email incorrecte")
+ #+END_SRC
+
 * Python 17 - Bucles IV
 [[https://www.youtube.com/watch?v=UfUM6uzl5SM][http://img.youtube.com/vi/UfUM6uzl5SM/0.jpg]]
 
