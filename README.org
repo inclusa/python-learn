@@ -438,7 +438,7 @@ Aquest codi dóna:
 
 Codi 1
 
-```python
+#+BEGIN_SRC python
 edat = int(input("Introdueix la teua edat: "))
 
 while edat < 5 or edat > 100:
@@ -447,11 +447,11 @@ while edat < 5 or edat > 100:
 
 print("Gràcies per col·laborar.")
 print("Edat de l'alumne " + str(edat))
-```
+#+END_SRC
 
 Codi 2
 
-```python
+#+BEGIN_SRC python
 print("Programa de càlcul d'arrel quadrada")
 numero = int(input("Introdueix el nombre: "))
 
@@ -471,6 +471,5 @@ while nombre < 0:
     if intents < 2:
         solution = math.sqrt(nombre)
 	print("L'arrel quadrada de " + str(nombre) + " és " + str(solution))
-```
-=======
+#+END_SRC
 
